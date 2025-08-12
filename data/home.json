@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "name": "Introdução",
+        "description": "O que são algoritmos, variáveis, comandos de entrada e saída?",
+        "example": "let nome = 'Gallo';\nlet idade = 44;\nlet alura = 1.69;",
+        "url": "",
+        "content": "docs/intro.pdf",
+        "exercises": ""
+    },
+    {
+        "id": 2,
+        "name": "Expressões (Operadores)",
+        "description": "São símbolos (+, -, *, /, %, >, <, !) que permitem aos sistemas realizar cálculos e comparações entre valores.",
+        "example": "let soma = 5 + 3; // Resultado: 8\nlet sub = 8 - 5; // Resultado: 3\nlet multi = 2 * 3; // Resultado: 6",
+        "url": "list1.html",
+        "content": "docs/operadores.pdf",
+        "exercises": "docs/listaOperadores.pdf"
+    },
+    {
+        "id": 3,
+        "name": "Estruturas Condicionais",
+        "description": "Permitem executar blocos de código apenas se uma condição for verdadeira",
+        "example": "if (idade >= 18) {\n  console.log('Maior de idade');\n}",
+        "url": ""
+    },
+    {
+        "id": 4,
+        "name": "Estruturas de Repetição",
+        "description": "Executam um bloco de código várias vezes enquanto uma condição for verdadeira",
+        "example": "for (let i = 0; i < 5; i++) {\n  console.log('Repetição ' + i);\n}",
+        "url": "loops/index.html"
+    },
+    {
+        "id": 5,
+        "name": "Vetores e Matrizes",
+        "description": "Estrutura de Dados que permitem o armazenamento de multiplas informações",
+        "example": "const frutas = ['maça', 'uva', 'pera'];\nconst numeros = [1, 5, 10];\nconst matriz = [][]",
+        "url": "array/index.html"
+    },
+    {
+        "id": 6,
+        "name": "Funções e Procedimentos",
+        "description": "Blocos de código que podem ser reaproveitados e utilizados várias vezes",
+        "example": "function somar(n1, n2) {\n  return n1 + n2;\n}",
+        "url": "functions/index.html"
+    }
+]
