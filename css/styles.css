@@ -15,3 +15,8 @@ html {
 .cursor-pointer {
     cursor: pointer;
 }
+
+div:where(.swal2-container) div:where(.swal2-popup) {
+    background-color: var(--bs-body-bg) !important;
+    color: var(--bs-body-color) !important;
+}

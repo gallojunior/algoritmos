@@ -3,25 +3,29 @@
         "id": 1,
         "name": "Cálculo de Área",
         "description": "Escreva um algoritmo que calcule a área de um retângulo, dados seu comprimento (comprimento) e largura (largura). Mostre o resultado.",
-        "code": ""
+        "code": "let comprimento = parseInt(prompt('Informe o comprimento: '));\nlet largura = parseInt(prompt('Informe a largura: '));\nlet area = comprimento * largura;\nconsole.log(`A área é: ${area}`);",
+        "function": "exercicio1"
     },
     {
         "id": 2,
         "name": "Conversão de Temperatura",
         "description": "Escreva um algoritmo que converta uma temperatura de Celsius (tempC) para Fahrenheit (tempF), usando a fórmula: tempF = (tempC * 9/5) + 32.",
-        "code": ""
+        "code": "let celsius = parseInt(prompt('Digite uma temperatura em Celsius: '));\nlet fahrenheit = (celsius * (9.0/5.0)) + 32;\nconsole.log(`${celsius}° celsius igual a ${fahrenheit}° fahrenheit`);",
+        "function": "exercicio2"
     },
     {
         "id": 3,
         "name": "Média Aritmética",
         "description": "Escreva um algoritmo que calcule a média aritmética de três notas (nota1, nota2, nota3).",
-        "code": ""
+        "code": "let nota1 = parseFloat(prompt('Digite a primeira nota: ');\nlet nota2 = parseFloat(prompt('Digite a segunda nota: ');\nlet nota3 = parseFloat(prompt('Digite a terceira nota: ');\nlet media = (nota1 + nota2 + nota3) / 3.0;\nconsole.log(`A média das notas é ${media}`;",
+        "function": "exercicio3"
     },
     {
         "id": 4,
         "name": "Cálculo de Distância",
         "description": "Escreva um algoritmo que calcule a distância percorrida (distância) por um objeto em movimento uniforme, dados a velocidade (velocidade) e o tempo (tempo).",
-        "code": ""
+        "code": "let velocidade = parseFloat(prompt('Informe a velocidade (em km/h): '));\nlet tempo = parseFloat(prompt('Informe o tempo (em horas): '));\nlet distancia = velocidade * tempo;\nconsole.log(`A distância percorrida é de ${distancia} km`);",
+        "function": "exercicio4"
     },
     {
         "id": 5,
@@ -34,7 +38,8 @@
         "id": 6,
         "name": "Equação do Segundo Grau (Delta)",
         "description": "Escreva um algoritmo que calcule o delta (delta) de uma equação quadrática (ax² + bx + c = 0), dados a, b e c. Fórmula: delta = b² - 4ac",
-        "code": ""
+        "code": "",
+        "function": "exercicio6"
     },
     {
         "id": 7,
