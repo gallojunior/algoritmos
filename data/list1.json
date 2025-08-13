@@ -38,31 +38,35 @@
         "id": 6,
         "name": "Equação do Segundo Grau (Delta)",
         "description": "Escreva um algoritmo que calcule o delta (delta) de uma equação quadrática (ax² + bx + c = 0), dados a, b e c. Fórmula: delta = b² - 4ac",
-        "code": "",
+        "code": "let a = parseInt(prompt('Informe o valor de 'a': );\nlet b = parseInt(prompt('Informe o valor de 'b': );\nlet c = parseInt(prompt('Informe o valor de 'c': );\nlet d = Math.pow(b, 2) - 4 * a * c;\nconsole.log(`O valor de Delta é ${d}`);",
         "function": "exercicio6"
     },
     {
         "id": 7,
         "name": "Comparação de Valores",
         "description": "Escreva um algoritmo que receba dois números (num1 e num2) e retorne True se num1 for maior que num2 e se a diferença entre eles for maior que 10.",
-        "code": ""
+        "code": "let num1 = parseInt(prompt('Informe o primeiro número: '));\nlet num2 = parseInt(prompt('Informe o segundo número: '));\nlet dif = num1 > num2 ? num1 - num2 : num2 - num1;\nconsole.log(`${num1 > num2 && dif > 10}`);",
+        "function": "exercicio7"
     },
     {
         "id": 8,
         "name": "Cálculo de Salário Líquido",
         "description": "Escreva um algoritmo que calcule o salário líquido (salario_liquido) de um funcionário, dado seu salário bruto (salario_bruto), considerando um desconto de 10% para INSS e 15% para IR.",
-        "code": ""
+        "code": "let salBruto = parseFloat(prompt('Informe o salário bruto: '));\nlet salLiquido = salBruto - (salBruto * ((10.0 + 15.0)/100.0));\nconsole.log(`R$ ${salLiquido}`);",
+        "function": "exercicio8"
     },
     {
         "id": 9,
         "name": "Verificação de Triângulo Válido",
         "description": "Escreva um algoritmo que verifique se três lados (a, b, c) podem formar um triângulo válido. Um triângulo é válido se a soma de quaisquer dois lados for maior que o terceiro lado.",
-        "code": ""
+        "code": "let a = parseInt(prompt('Informe o valor do lado 'a': );\nlet b = parseInt(prompt('Informe o valor do lado 'b': );\nlet c = parseInt(prompt('Informe o valor do lado 'c': );\nlet triangulo = (a < b + c) && (b < a + c) && (c < a + b);\nconsole.log(`${triangulo ? 'Os lados formam um triângulo' : 'Os lados não formam um triângulo'}`);",
+        "function": "exercicio9"
     },
     {
         "id": 10,
         "name": "Cálculo de Resistência Equivalente",
         "description": "Escreva um algoritmo que calcule a resistência equivalente (req) de dois resistores em paralelo, dados r1 e r2. Fórmula: req = (r1 * r2) / (r1 + r2)",
-        "code": ""
+        "code": "let r1 = parseFloat(prompt('Informe o valor do 1º resistor:'));\nlet r2 = parseFloat(prompt('Informe o valor do 2º resistor:'));\nlet req = (r1 * r2) / (r1 + r2);\nconsole.log(`A Resistência Equivalente é ${req}`);",
+        "function": "exercicio10"
     }
 ]
