@@ -22,7 +22,9 @@
         "name": "Estruturas Condicionais",
         "description": "Permitem executar blocos de código apenas se uma condição for verdadeira",
         "example": "if (idade >= 18) {\n  console.log('Maior de idade');\n}",
-        "url": ""
+        "url": "",
+        "content": "docs/condicionais.pdf",
+        "exercises": "docs/listaCondicionais.pdf"
     },
     {
         "id": 4,
