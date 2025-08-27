@@ -31,7 +31,9 @@
         "name": "Estruturas de Repetição",
         "description": "Executam um bloco de código várias vezes enquanto uma condição for verdadeira",
         "example": "for (let i = 0; i < 5; i++) {\n  console.log('Repetição ' + i);\n}",
-        "url": "loops/index.html"
+        "url": "loops/index.html",
+        "content": "docs/repetição.pdf",
+        "exercises": "docs/listaRepetição.pdf"
     },
     {
         "id": 5,
